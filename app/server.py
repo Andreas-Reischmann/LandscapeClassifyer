@@ -9,7 +9,7 @@ from fastai import *
 from fastai.vision import *
 
 model_file_url = 'https://drive.google.com/uc?export=download&confirm=94RP&id=1Kxv_egUOTBbNcqSf4valPv56KX9tjmrY'
-model_file_name = 'stage-2.pth'
+model_file_name = 'stage-2'
 classes = ['sea','forest', 'lake','swamp']
 path = Path(__file__).parent
 
